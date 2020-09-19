@@ -1,0 +1,21 @@
+{
+    "extends": ["airbnb","airbnb/hooks","prettier"],
+    "plugins": ["prettier"],
+    "env": {
+		"browser": true,
+		"node": true,
+		"jest": true,
+		"es6": true
+	},
+    "rules": {
+      "prettier/prettier": ["error"],
+      "react/jsx-filename-extension": [
+        1,
+        {
+            "extensions": [".js", ".jsx"]
+        }
+    ],
+    "import/imports-first": ["error", "absolute-first"],
+    "react/prop-types": 0
+    }
+  }
